@@ -2,7 +2,7 @@
 ## https://www.calctool.org/kinetics/projectile-motion
 ## https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/ballistic-flight-equations/
 
-## d = (vi * t) + (1/2 * a * t)
+## d = (vi * t) + (1/2 * a * t^2)
 ## vf = vi + (a * t)
 ## vf^2 = vi^2 + (2 * a * d)
 ## d = ((vi + vf)/2) * t
