@@ -72,13 +72,11 @@ def getuserInput():
 ################## MAIN ##################
 
 if __name__ == "__main__":
+
+	## Uncomment this function and comment out the Test values (below)
+	## to choose new user input values for the main
 	
-	# ~ V0 = input("Enter initial velocity:\t")
-	# ~ V0 = float(V0)
-	# ~ y0 = input("Enter initial hight:\t")
-	# ~ y0 = float(y0)
-	# ~ a0 = input("Enter angle:\t")
-	# ~ a0 = float(a0)
+	# ~ getUserInput()
 
 	## Test values, uncomment as needed
 	V0 = 35.0	## m/s
