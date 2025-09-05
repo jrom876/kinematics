@@ -61,9 +61,6 @@ def vert_vel (V0, angle):
 ########################################
 ### User Interface ###
 def getuserInput():
-	# ~ print("1 = Binary to All    2 = Octal to All")
-	# ~ print("3 = Decimal to All   4 = Hex to All")
-	# ~ print("5 = Exit\n")
 	v0 = input("Enter initial velocity:\t")
 	v0 = int(v0)
 	y0 = input("Enter initial hight:\t")
