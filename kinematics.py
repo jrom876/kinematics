@@ -76,18 +76,18 @@ if __name__ == "__main__":
 	## Uncomment this function and comment out the Test values (below)
 	## to choose new user input values for the main
 	
-	# ~ getUserInput()
+	# getUserInput()
 
 	## Test values, uncomment as needed
 	V0 = 35.0	## m/s
-	# ~ ## ~ V0 = 44.704006 ## 100 mph	
-	# ~ ## ~ a0 = 57.2957795 ## one radian
+	## V0 = 44.704006 ## 100 mph	
+	## a0 = 57.2957795 ## one radian
 	a0 = 45.0 	## degrees
 	y0 = 1.5	## 1.5 meters initial height
 	
 	ang = a0 * (math.pi/180.0)
 	ang = round(ang,8)
-	# ~ print("ang = {0} radians".format(ang))
+	## print("ang = {0} radians".format(ang))
 	ay = math.sin(ang)
 	ay = round(ay,8)
 	ax = math.cos(ang)
